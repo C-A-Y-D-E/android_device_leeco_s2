@@ -434,4 +434,6 @@
     <!-- Is the device capable of hot swapping an UICC Card -->
     <bool name="config_hotswapCapable">true</bool>
 
+   <integer name="config_deviceHardwareKeys">83</integer>
+
 </resources>
