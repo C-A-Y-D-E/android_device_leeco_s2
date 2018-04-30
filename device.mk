@@ -90,7 +90,11 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessing \
     libqcomvoiceprocessingdescriptors \
     tinymix
-
+    
+# Offline charging animation
+PRODUCT_PACKAGES += \
+    charger_res_images
+    
 # Assertive Display
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/ad_calib.cfg:system/etc/ad_calib.cfg
